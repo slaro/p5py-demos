@@ -27,7 +27,7 @@ def draw():
 
                         letter = chr(counter)
 
-                        if (letter == "A" or letter == "E" or letter == "I" or letter == "0" or letter == "U"):
+                        if (letter == "A" or letter == "E" or letter == "I" or letter == "O" or letter == "U"):
                                 fill(255, 204, 0)
                         else:
                                 fill(255)
