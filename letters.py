@@ -19,6 +19,8 @@ def draw():
         margin = 10
         translate(margin*4, margin*4)
 
+        highlight_color = Color(r=0,g=255,b=64,a=255)
+
         gap = 46
         counter = 35
 
@@ -28,7 +30,7 @@ def draw():
                         letter = chr(counter)
 
                         if (letter == "A" or letter == "E" or letter == "I" or letter == "O" or letter == "U"):
-                                fill(255, 204, 0)
+                                fill(highlight_color)
                         else:
                                 fill(255)
 
